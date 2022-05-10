@@ -1,12 +1,15 @@
 {
-  "name": "my-vue-app",
+  "name": "{{name}}",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "{{description}}",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
+  "author": "{{author}}",
+  "license": "MIT",
   "dependencies": {
     "@arco-design/web-vue": "^2.26.0",
     "axios": "^0.27.2",
