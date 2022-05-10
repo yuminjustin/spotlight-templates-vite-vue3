@@ -1,6 +1,5 @@
 <template>
   <a-layout-sider
-    :theme="config.theme"
     :width="220"
     collapsible
     breakpoint="xl"
